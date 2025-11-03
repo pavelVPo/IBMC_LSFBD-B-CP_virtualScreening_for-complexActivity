@@ -93,7 +93,13 @@ The results of the diversity assessement conducted using TDV for compounds teste
 
 ![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/scafDiv_predicted.png)
 
-The results of the diversity assessement conducted using TDV for the sample of ChEMBL compounds propensed to be tested against Smo are *on top*. The diversity is a little higher than in the first case.
+The results of the diversity assessement conducted using TDV for the sample of ChEMBL compounds propensed to be tested against Smo are *on top*. The diversity is not lower than in the first case.
+
+![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/scafDiv_ChemRar.png)
+
+The results of the diversity assessement conducted using TDV for the sample of ChemRar compounds propensed to be tested against Smo are *on top*. Couple of scaffolds are overrepresented, but in general the diversity is comparable to the diversity in the first case.
+
+Overall, judging by these results, it is possible to make a conclusion that one round of the selection of chemical compounds for testing does not affect the diversity drastically, however, in the case of itterative continuous selection monitoring and appropriate measures are probably needed. 
 
 
 
