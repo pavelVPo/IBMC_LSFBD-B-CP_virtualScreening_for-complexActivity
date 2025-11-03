@@ -32,10 +32,33 @@ Cytotoxic compounds are numerous and could act on the multiple targets in the ce
 
 ### Training data
 
+ChEMBL v36 (https://www.ebi.ac.uk/chembl/) is used as the source of the training data (https://link.springer.com/article/10.1186/s13321-025-00963-z). Records containing IC50 values are considered.
 
+### Data to screen
+
+For this study it was proposed to screen the ChemRar's library, namely the file containing 300k diverse structures was screened (https://mol.chemrar.ru/diversity-libraries , '300K Разнообразная библиотека (алгоритм кластеризации Bemis-Murcko)' ).
 
 ### Propensity stage of the virtual screening
 
-Using PASS-software it is possible to build classifiers in the framework of (Q)SAR / (Q)SPR (https://pubmed.ncbi.nlm.nih.gov/26754147/) methodology, which is a good thing for the folks using PASS, since almost every activity / property of the chemical compounds is determined by its chemical structure (surprisingly, exceptions exist). Primordial PASS was designed to propose the most promising directions for the biological evaluation of chemical compounds based on the extremely diverse data on structures and activities of newly synthesized and studied chemical compounds ([the appropriate reference will be added](http://www.russchembull.ru/rus/objects/papcat-5167.pdf)). This allows to use as much data as possible, but, at the same time, means that endpoints used could be not the established, standardized ones. So, this idea could be extended to the case, when PASS is trained to predict not an activity, but rather a propensity of the chemical compound to be evaluated for the certain activity (https://en.wikipedia.org/wiki/Propensity_score_matching , https://www.tandfonline.com/doi/abs/10.1080/1062936X.2019.1665580). Why to do that, if it is possible to immediately predict the activity instead of propensity, because it allows to increase the overall success of the virtual screening (https://www.tandfonline.com/doi/abs/10.1080/1062936X.2019.1665580 , https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2018.00133/full).
+Using PASS-software it is possible to build classifiers in the framework of (Q)SAR / (Q)SPR (https://pubmed.ncbi.nlm.nih.gov/26754147/) methodology, which is a good thing for the folks using PASS, since almost every activity / property of the chemical compounds is determined by its chemical structure (surprisingly, exceptions exist). Primordial PASS was designed to propose the most promising directions for the biological evaluation of chemical compounds based on the extremely diverse data on structures and activities of newly synthesized and studied chemical compounds ([the appropriate reference will be added](http://www.russchembull.ru/rus/objects/papcat-5167.pdf)). This allows to use as much data as possible, but, at the same time, means that endpoints used could be not the established, standardized ones. So, this idea could be extended to the case, when PASS is trained to predict not an activity, but rather a propensity of the chemical compound to be evaluated for the certain activity (https://en.wikipedia.org/wiki/Propensity_score_matching , https://www.tandfonline.com/doi/abs/10.1080/1062936X.2019.1665580). Why to do that, if it is possible to immediately predict the activity instead of propensity? Because it was shown that it allows to increase the overall success of the virtual screening (https://www.tandfonline.com/doi/abs/10.1080/1062936X.2019.1665580 , https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2018.00133/full).
 
 Thus, this part of the study is basically about predicting whether compound is likely to be evaluated for certain biological activity or not.
+
+And 'activity' here means the ability to sufficiently inhibit some biological target.
+
+Targets, considered at the moment are:
+
+---------+--------------------+---------------+
+|What are the targets:						  |
++--------+--------------------+---------------+
+| tid    | pref_name          | chembl_id     |
+-----------------------------------------------
+| 103218 | Ca-Ski             | CHEMBL1075403 |
+-----------------------------------------------
+| 106482 | C-33-A             | CHEMBL2366313 |
+-----------------------------------------------
+| 80472  | SiHa               | CHEMBL612542  |
+-----------------------------------------------
+| 101400 | Protein smoothened | CHEMBL5971    |
++--------+--------------------+---------------+
+
