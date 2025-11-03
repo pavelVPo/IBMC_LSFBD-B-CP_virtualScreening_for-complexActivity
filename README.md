@@ -49,7 +49,7 @@ And 'activity' here means the ability to sufficiently inhibit some biological ta
 Targets, considered at the moment are:
 
 ---------+--------------------+---------------+
-|What are the targets:						  |
+|What are the targets:						            |
 +--------+--------------------+---------------+
 | tid    | pref_name          | chembl_id     |
 -----------------------------------------------
