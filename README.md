@@ -79,3 +79,9 @@ These results testify in favour of the point of view that selection of the chemi
 
 Not much, to be honest.
 
+3. Are there compounds from ChEMBL have propensity to be tested against the several of selected targets simultaneously according to the PASS assessment?
+
+![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/UpSet_predicted.png)
+
+
+
