@@ -45,7 +45,7 @@ Using PASS-software it is possible to build classifiers in the framework of (Q)S
 Thus, this part of the study is basically about predicting whether compound is likely to be evaluated for the certain biological activity or not.
 
 And 'activity' here means the ability of compound to sufficiently inhibit some biological target.
-And inhibition of the cell line here most likely means the inhibition of it's growth rate.
+And inhibition of the cell line here most likely means the inhibition of it's growth rate and, maybe, cell death. It is hard to say exactly at this stage of the study.
 
 Targets, considered at the moment are:
 
@@ -82,6 +82,12 @@ Not much, to be honest.
 3. Are there compounds from ChEMBL have propensity to be tested against the several of selected targets simultaneously according to the PASS assessment?
 
 ![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/UpSet_predictedTested.png)
+
+The interesting result here is the relatively high propensity for SMO inhibitors to be tested against the C-33-A, since C-33-A has elevated expression of Smo (https://sites.broadinstitute.org/ccle/ , 25Q2) and this info is not known to the classifier at all.
+
+4. Do the chemical diversity assessed on the level of scaffolds suffer from the prediction?
+
+![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/scafDiv_tested.png)
 
 
 
