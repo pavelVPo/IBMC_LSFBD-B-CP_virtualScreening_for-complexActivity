@@ -81,7 +81,7 @@ Not much, to be honest.
 
 3. Are there compounds from ChEMBL have propensity to be tested against the several of selected targets simultaneously according to the PASS assessment?
 
-![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/UpSet_predicted.png)
+![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/UpSet_predictedTested.png)
 
 
 
