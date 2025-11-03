@@ -111,6 +111,6 @@ According to the results of the extended UMAP procedure (https://library.keldysh
 
 *The following was used to conduct this study:*
 
-ChEMBL data, R & RStudio, PASS, Tidyverse, Apache Arrow for R, RMariaDB, DBI, UMAP, Praznik, Mirt, 
+ChEMBL data, R & RStudio, PASS, Tidyverse, Apache Arrow for R, RMariaDB, DBI, UMAP, Praznik, Mirt.
 
 
