@@ -1,6 +1,7 @@
 # IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity
 
-** The following text and code is a draft **
+**The following text and code is a draft**
+
 This repository contains the code and by extension some data to conduct the virtual screening for the compounds having cytotoxicity against the cell lines,
 which could be used to model cervical cancer, affecting Shh pathway, affecting MMPs expression in an unsual manner; and
 associated with the antiviral action; which could be of interest to our collegues from B&amp;CPP (https://en.ibmc.msk.ru/departments?view=article&id=41:laboratory-of-protein-biochemistry-and-pathology&catid=10:data).
