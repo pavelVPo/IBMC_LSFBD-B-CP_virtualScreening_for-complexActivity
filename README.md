@@ -40,11 +40,12 @@ For this study it was proposed to screen the ChemRar's library, namely the file 
 
 ### Propensity stage of the virtual screening
 
-Using PASS-software it is possible to build classifiers in the framework of (Q)SAR / (Q)SPR (https://pubmed.ncbi.nlm.nih.gov/26754147/) methodology, which is a good thing for the folks using PASS, since almost every activity / property of the chemical compounds is determined by its chemical structure (surprisingly, exceptions exist). Primordial PASS was designed to propose the most promising directions for the biological evaluation of chemical compounds based on the extremely diverse data on structures and activities of newly synthesized and studied chemical compounds ([the appropriate reference will be added](http://www.russchembull.ru/rus/objects/papcat-5167.pdf)). This allows to use as much data as possible, but, at the same time, means that endpoints used could be not the established, standardized ones. So, this idea could be extended to the case, when PASS is trained to predict not an activity, but rather a propensity of the chemical compound to be evaluated for the certain activity (https://en.wikipedia.org/wiki/Propensity_score_matching , https://www.tandfonline.com/doi/abs/10.1080/1062936X.2019.1665580). Why to do that, if it is possible to immediately predict the activity instead of propensity? Because it was shown that it allows to increase the overall success of the virtual screening (https://www.tandfonline.com/doi/abs/10.1080/1062936X.2019.1665580 , https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2018.00133/full).
+Using PASS-software it is possible to build classifiers in the framework of (Q)SAR / (Q)SPR (https://pubmed.ncbi.nlm.nih.gov/26754147/) methodology, which is a good thing for the folks using PASS, since almost every activity / property of the chemical compounds is determined by its chemical structure (surprisingly, exceptions exist). Primordial PASS was designed to propose the most promising directions for the biological evaluation of chemical compounds based on the extremely diverse data on structures and activities of newly synthesized and studied chemical compounds ([the appropriate reference will be added](http://www.russchembull.ru/rus/objects/papcat-5167.pdf)). This allows to use as much data as possible, but, at the same time, means that endpoints used could be not the established, standardized ones. So, this idea could be extended to the case, when PASS is trained to predict not an activity, but rather a propensity of the chemical compound to be evaluated for the certain activity (https://en.wikipedia.org/wiki/Propensity_score_matching , https://www.tandfonline.com/doi/abs/10.1080/1062936X.2019.1665580). Why to do that, if it is possible to immediately predict the activity instead of propensity? Because it was sort of shown that it allows to increase the overall success of the virtual screening (https://www.tandfonline.com/doi/abs/10.1080/1062936X.2019.1665580 , https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2018.00133/full).
 
-Thus, this part of the study is basically about predicting whether compound is likely to be evaluated for certain biological activity or not.
+Thus, this part of the study is basically about predicting whether compound is likely to be evaluated for the certain biological activity or not.
 
-And 'activity' here means the ability to sufficiently inhibit some biological target.
+And 'activity' here means the ability of compound to sufficiently inhibit some biological target.
+And inhibition of the cell line here most likely means the inhibition of it's growth rate.
 
 Targets, considered at the moment are:
 
@@ -61,7 +62,7 @@ The whole process
 
 The average accuracy assessed as IAP, which is numerically equivavlent to the ROC AUC, was about 0.94 (assesed for each activity during LOO CV and averaged).
 
-Additionally, 2-f CV was conducted for the selected targets:
+Additionally, 2-f Cross-Validation (chemical structure of each compound having more than one label could be placed in both subsets, but with different labels considered during the classifier's building) was conducted for the selected targets:
 
 | label     | n_tested | ROC AUC     |
 |-----------|----------|-------------|
