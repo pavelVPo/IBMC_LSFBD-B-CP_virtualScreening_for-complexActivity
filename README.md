@@ -75,7 +75,7 @@ These results testify in favour of the point of view that selection of the chemi
 
 2. Are the data on inhibition of the combination of the selected biological targets in ChEMBL?
 
-![Image alt]([https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/UpSet_tested.png])
+![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/UpSet_tested.png)
 
 Not much, to be honest.
 
