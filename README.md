@@ -64,12 +64,12 @@ The average accuracy assessed as IAP, which is numerically equivavlent to the RO
 
 Additionally, 2-f Cross-Validation (chemical structure of each compound having more than one label could be placed in both subsets, but with different labels considered during the classifier's building) was conducted for the selected targets:
 
-| label     | n_tested | ROC AUC     |
-|-----------|----------|-------------|
-| c33a      | 339      |	0.848714662|
-| caski     | 290      | 0.833032962 |
-| siha      | 1383     | 0.94261529  |
-| smo       | 1035     | 0.996136812 |
+| label     | ROC AUC     |
+|-----------|-------------|
+| c33a      | 0.848714662 |
+| caski     | 0.833032962 |
+| siha      | 0.94261529  |
+| smo       | 0.996136812 |
 
 These results testify in favour of the point of view that selection of the chemical compounds for the testing against the particular target is not a random thing.
 
