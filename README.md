@@ -32,7 +32,7 @@ Cytotoxic compounds are numerous and could act on the multiple targets in the ce
 
 ### Training data
 
-ChEMBL v36 (https://www.ebi.ac.uk/chembl/) is used as the source of the training data (https://link.springer.com/article/10.1186/s13321-025-00963-z). Records containing IC50 values are considered.
+ChEMBL v35 (https://www.ebi.ac.uk/chembl/) is used as the source of the training data (https://link.springer.com/article/10.1186/s13321-025-00963-z). Records containing IC50 values are considered.
 
 ### Data to screen
 
