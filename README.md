@@ -109,4 +109,8 @@ MNA-descriptors are used internally in PASS to represent chemical structures (ht
 
 According to the results of the extended UMAP procedure (https://library.keldysh.ru/prep_vw.asp?lg=e&pid=10591) conducted using descriptions of the chemical structures in the space of 15 binary features selected among the MNA descriptors to better distinguih between compounds, having high and low propensity scores to be evaluated against the Smo protein, interesting compounds (from this study perspective) are close neighbors of the ChEMBL compounds, thus, the prediction of the Smo inhibitory activity should be viable for the ChemRar's compounds and, thus, PASS-based virtual screening should be possible.
 
+*The following was used to conduct this study:*
+
+ChEMBL data, R & RStudio, PASS, Tidyverse, Apache Arrow for R, RMariaDB, DBI, UMAP, Praznik, Mirt, 
+
 
