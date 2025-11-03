@@ -99,7 +99,7 @@ The results of the diversity assessement conducted using TDV for the sample of C
 
 The results of the diversity assessement conducted using TDV for the sample of ChemRar compounds propensed to be tested against Smo are *on top*. Couple of scaffolds are overrepresented, but in general the diversity is comparable to the diversity in the first case.
 
-Overall, judging by these results, it is possible to make a conclusion that one round of the selection of chemical compounds for testing does not affect the diversity drastically, however, in the case of itterative continuous selection monitoring and appropriate measures are probably needed. 
+Overall, judging by these results, it is possible to make a conclusion that one round of the selection of chemical compounds for testing does not affect the diversity drastically, however, in the case of itterative continuous selection monitoring and appropriate measures are probably needed, since the fraction of the simple scaffolds grows among the overrepresented scaffolds.
 
 
 
