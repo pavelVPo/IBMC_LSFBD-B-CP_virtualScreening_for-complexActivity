@@ -49,6 +49,7 @@ And 'activity' here means the ability to sufficiently inhibit some biological ta
 Targets, considered at the moment are:
 
 | tid    | pref_name          | chembl_id     |
+|--------|--------------------|---------------|
 | 103218 | Ca-Ski             | CHEMBL1075403 |
 | 106482 | C-33-A             | CHEMBL2366313 |
 | 80472  | SiHa               | CHEMBL612542  |
