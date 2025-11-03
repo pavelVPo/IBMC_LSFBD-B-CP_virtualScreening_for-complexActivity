@@ -55,7 +55,9 @@ Targets, considered at the moment are:
 | 80472  | SiHa               | CHEMBL612542  |
 | 101400 | Protein smoothened | CHEMBL5971    |
 
-Using PASS and ChEMBL data the classifier was build to predict the propensity for chemical compounds to be tested against the about 5k biological targets from various organisms.
+The whole process
+
+1. Using PASS and ChEMBL data the classifier was build to predict the propensity for chemical compounds to be tested against the about 5k biological targets from various organisms.
 
 The average accuracy assessed as IAP, which is numerically equivavlent to the ROC AUC, was about 0.94 (assesed for each activity during LOO CV and averaged).
 
@@ -67,4 +69,8 @@ Additionally, 2-f CV was conducted for the selected targets:
 | caski     | 290      | 0.833032962 |
 | siha      | 1383     | 0.94261529  |
 | smo       | 1035     | 0.996136812 |
+
+These results testify in favour of the point of view that selection of the chemical compounds for the testing against the particular target is not a random thing.
+
+2.
 
