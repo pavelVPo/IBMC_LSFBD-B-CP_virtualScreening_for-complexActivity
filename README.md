@@ -73,5 +73,9 @@ Additionally, 2-f Cross-Validation (chemical structure of each compound having m
 
 These results testify in favour of the point of view that selection of the chemical compounds for the testing against the particular target is not a random thing.
 
-2.
+2. Are the data on inhibition of the combination of the selected biological targets in ChEMBL?
+
+![Image alt]([https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/UpSet_tested.png))
+
+Not much, to be honest.
 
