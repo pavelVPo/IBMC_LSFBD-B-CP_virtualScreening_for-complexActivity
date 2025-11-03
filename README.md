@@ -48,9 +48,6 @@ And 'activity' here means the ability to sufficiently inhibit some biological ta
 
 Targets, considered at the moment are:
 
----------+--------------------+---------------+
-|What are the targets:						            |
-+--------+--------------------+---------------+
 | tid    | pref_name          | chembl_id     |
 -----------------------------------------------
 | 103218 | Ca-Ski             | CHEMBL1075403 |
@@ -60,5 +57,5 @@ Targets, considered at the moment are:
 | 80472  | SiHa               | CHEMBL612542  |
 -----------------------------------------------
 | 101400 | Protein smoothened | CHEMBL5971    |
-+--------+--------------------+---------------+
+-----------------------------------------------
 
