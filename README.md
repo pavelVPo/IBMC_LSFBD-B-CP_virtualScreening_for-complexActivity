@@ -85,9 +85,11 @@ Not much, to be honest.
 
 The interesting result here is the relatively high propensity for SMO inhibitors to be tested against the C-33-A, since C-33-A has elevated expression of Smo (https://sites.broadinstitute.org/ccle/ , 25Q2) and this info is not known to the classifier at all.
 
-4. Do the chemical diversity assessed on the level of scaffolds suffer from the prediction?
+4. Does the chemical diversity assessed on the level of scaffolds decrease from the prediction?
 
 ![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/scafDiv_tested.png)
+
+The results of the diversity assessement conducted using TDV are on top. The diversity is OK, but lower than expected from the training set (The higher blue bars on the left - the higher diversity, expected levels are depicted via horizontal lines).
 
 
 
