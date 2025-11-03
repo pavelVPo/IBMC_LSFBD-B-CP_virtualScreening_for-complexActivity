@@ -89,7 +89,7 @@ The interesting result here is the relatively high propensity for SMO inhibitors
 
 ![alt text](https://github.com/pavelVPo/IBMC_LSFBD-B-CP_virtualScreening_for-complexActivity/blob/main/scafDiv_tested.png)
 
-The results of the diversity assessement conducted using TDV are on top. The diversity is OK, but lower than expected from the training set (The higher blue bars on the left - the higher diversity, expected levels are depicted via horizontal lines).
+The results of the diversity assessement conducted using TDV are on top. The diversity is OK, but lower than expected from the training set (The higher blue bars on the left side - the higher diversity, the higher blue bars on the right side - the lower diversity; expected levels are depicted via horizontal lines).
 
 
 
