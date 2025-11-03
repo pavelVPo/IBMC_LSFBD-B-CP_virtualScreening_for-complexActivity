@@ -54,5 +54,5 @@ Targets, considered at the moment are:
 | 106482 | C-33-A             | CHEMBL2366313 |
 | 80472  | SiHa               | CHEMBL612542  |
 | 101400 | Protein smoothened | CHEMBL5971    |
-|--------|--------------------|---------------|
+
 
