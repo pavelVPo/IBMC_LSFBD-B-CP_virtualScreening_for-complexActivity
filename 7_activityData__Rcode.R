@@ -24,7 +24,7 @@ con <- dbConnect(
 #	106482		c33a
 #	80472		  siha
 #	101400		smo
-#	81020		  HepG2 		# addition by request of our colleagues, this cell line is also a model of cervical cancer and somehow was missing from the intial list
+#	81020		  HepG2 		# addition by request of our colleagues
 tid_selected <- tibble(target_id=c('103218', '106482', '80472', '101400', '81020'))
 # Read the data on compounds, which actually made it to the training set
 main_sdf <- read_file(".../data/second_set.SDF") |> as_tibble() |> separate_longer_delim(value, delim = "$$$$")
@@ -149,4 +149,5 @@ umap_coordinate <- one_umap$layout |> bind_cols(points |> select(assay_id)) |>
 
 # Export the results to study them
 write_tsv(activities |> select(-description), ".../data/acts_against_selectedCL.tsv")
+
 write_tsv(umap_coordinate, ".../data/assays_against_selectedCL.tsv")
