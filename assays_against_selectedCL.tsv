@@ -79,16 +79,16 @@ umap	assay_id	description	exposure_hrs	variant	comment	comment_type
 -11.78218593	83875	In vitro cholesterol biosynthesis inhibition in human HepG2 by measuring the extend of cholesterol radiolabeling after incubation with [14C]mevalonate.			inhibition of cholesterol biosynthesis	mechanism
 -11.68818414	312153	Concentration required to inhibit growth of human hepatocellular carcinoma (HepG2) cell line				
 -11.44421266	772008	Cytotoxicity against human SiHa cells assessed as reduction in cell density compound treated for 4 hrs under oxic condition measured after 5 days by sulforhodamine B assay	120		under oxic condition	conditions
--11.44082457	1691827	Mitochondrial toxicity in human HepG2 cells grown in presence of galactose			in presence of galactose	speciffic goal
--11.41726109	1691826	Mitochondrial toxicity in human HepG2 cells grown in presence of glucose			in presence of glucose	speciffic goal
+-11.44082457	1691827	Mitochondrial toxicity in human HepG2 cells grown in presence of galactose			in presence of galactose	specific goal
+-11.41726109	1691826	Mitochondrial toxicity in human HepG2 cells grown in presence of glucose			in presence of glucose	specific goal
 -11.399961	772009	Cytotoxicity against human SiHa cells assessed as reduction in cell density compound treated for 4 hrs under hypoxic condition measured after 5 days by sulforhodamine B assay	120		under hypoxic condition 	condition
 -10.91113808	1771759	Cytotoxicity against human HepG2 cells assessed as decrease in cell viability after 96 hrs	96			
 -10.77164721	1470102	Cytotoxicity against human HepG2 cells assessed as surviving fraction ratio incubated for 2 hrs prior to 8Gy gamma-irradiation measured after 48 hrs by ELISA reader relative to control	2		prior to 8Gy gamma-irradiation	combination, radiotherapy
 -10.74544728	762312	Cytotoxicity against human C33A cells assessed as reduction of cell density incubated for 4 hrs in hypoxic (anoxic) condition measured 5 days post dose by SRB assay	120		in hypoxic (anoxic) condition 	condition
 -10.72116827	762311	Cytotoxicity against human C33A cells assessed as reduction of cell density incubated for 4 hrs in oxic (aerobic) condition measured 5 days post dose by SRB assay	4		in oxic	condition
--10.69862781	85927	In vitro antiviral activity against HBV in Hep G2 cells			antiviral activity against HBV	speciffic goal
+-10.69862781	85927	In vitro antiviral activity against HBV in Hep G2 cells			antiviral activity against HBV	specific goal
 -10.5773158	1348083	Inhibition of Smo receptor (unknown origin) expressed in NIH3T3 cells assessed as inhibition of Smo agonist SAG-induced GRE activation after 30 hrs by luciferase reporter gene assay	30			
--10.40886125	88437	Inhibitory concentration against hepatitis B virus infected 2.2.15 cells			against hepatitis B virus	speciffic goal
+-10.40886125	88437	Inhibitory concentration against hepatitis B virus infected 2.2.15 cells			against hepatitis B virus	specific goal
 -10.30712679	83879	Inhibitory concentration against cholesterol biosynthesis in HepG2 cells.			inhibition of cholesterol biosynthesis	mechanism
 -10.23357388	311664	Inhibitory concentration against HepG2 cell line				
 -10.03891607	2184937	Inhibition of endogenous human Smo overexpressed in mouse C3H 10T1/2 cells cotransfected with Gli reporter gene assessed as Gli luciferase activity by dual luciferase assay				
@@ -106,7 +106,7 @@ umap	assay_id	description	exposure_hrs	variant	comment	comment_type
 -9.094206124	83578	Cytotoxic activity against human tumor HepG2 cell line				
 -9.08406787	1527468	GSK_TB: The cytotoxicity against HepG2 cells expressed as IC50				
 -9.044697153	311999	Cytotoxicity of compound against human liver tumor cell line (Hep-G2) was determined				
--8.762155381	1292071	Antioxidant activity in human HepG2 cells assessed as inhibition of ABAP-induced intracellular peroxyl radical scavenging activity by measuring ROS production measured every 5 mins for 1 hr by absorbance assay			Antioxidant activity	speciffic goal
+-8.762155381	1292071	Antioxidant activity in human HepG2 cells assessed as inhibition of ABAP-induced intracellular peroxyl radical scavenging activity by measuring ROS production measured every 5 mins for 1 hr by absorbance assay			Antioxidant activity	specific goal
 -8.747919295	339141	Cytotoxicity against SiHa cancer cell line				
 -8.745423311	83900	Cytotoxicity in HepG2-T14 cancer cell line				
 -8.679322189	2195071	Antitumor activity against human HepG2 cells assessed as inhibit cell proliferation incubated for 72 hrs by CCK-8 assay	72			
@@ -120,8 +120,8 @@ umap	assay_id	description	exposure_hrs	variant	comment	comment_type
 -7.937172001	452821	Cytotoxicity against SiHa cells under hypoxic condition after 4 hrs	4		under hypoxic condition 	condition
 -7.895137058	452286	Cytotoxicity against human SiHa cells under hypoxic conditions after 4 hrs	4		under hypoxic condition 	condition
 -7.895137058	537756	Cytotoxicity against human SiHa cells after 4 hrs under strict hypoxic condition	4		under hypoxic condition 	condition
--7.834770918	1784566	Antioxidant activity in human HepG2 cells assessed as inhibition of ABAP-induced peroxyl radical generation incubated for 60 mins measured for 60 mins by DCFH-DA probe based fluorescence assay			Antioxidant activity	speciffic goal
--7.809144072	1784567	Antioxidant activity in human HepG2 cells assessed as inhibition of cumene hydroperoxide-mediated lipid peroxidation incubated for 60 mins followed by cumOOH addition for 60 mins measured for 60 mins by C11-BODIPY probe based fluorescence assay			Antioxidant activity	speciffic goal
+-7.834770918	1784566	Antioxidant activity in human HepG2 cells assessed as inhibition of ABAP-induced peroxyl radical generation incubated for 60 mins measured for 60 mins by DCFH-DA probe based fluorescence assay			Antioxidant activity	specific goal
+-7.809144072	1784567	Antioxidant activity in human HepG2 cells assessed as inhibition of cumene hydroperoxide-mediated lipid peroxidation incubated for 60 mins followed by cumOOH addition for 60 mins measured for 60 mins by C11-BODIPY probe based fluorescence assay			Antioxidant activity	specific goal
 -7.774688625	2021989	Cytotoxicity against human SiHa cells				
 -7.745469081	767695	Antagonist activity at human SMO expressed in HEPM cells assessed as reduction of GLI expression after 24 hrs by Quantigene assay	24			
 -7.739688984	643731	Antagonist activity at human Smo receptor in HEPM cells assessed as inhibition of Gli expression after 24 hrs by quantigene assay	24			
@@ -156,7 +156,7 @@ umap	assay_id	description	exposure_hrs	variant	comment	comment_type
 -6.789784141	2275645	Anticancer activity against human HepG2 cells				
 -6.789784141	2284859	Anticancer activity against human HepG2 cells				
 -6.789784141	2304252	Anticancer activity against human HepG2 cells				
--6.724069027	696210	Antidyslipidemic activity in human HepG2 cells assessed as inhibition of cholesterol esterification			Antidyslipidemic activity	speciffic goal
+-6.724069027	696210	Antidyslipidemic activity in human HepG2 cells assessed as inhibition of cholesterol esterification			Antidyslipidemic activity	specific goal
 -6.719224318	2275713	Anticancer activity against human HepG2 cells assessed as inhibition of cell viability				
 -6.584636059	2114362	Antiproliferation activity against human HepG2 cells assessed as reduction in cell viability after 72 hrs by CCK8 assay	72			
 -6.513213533	2275720	Anticancer activity against human HepG2 cells assessed as reduction in cell viability				
@@ -1308,7 +1308,7 @@ umap	assay_id	description	exposure_hrs	variant	comment	comment_type
 6.933642514	2356587	Antiproliferative activity against human HepG2 cells assessed as cell growth inhibition incubated for 72 hrs by SRB assay	72			
 6.936211782	2121606	Antiproliferative activity against human HepG2 cells assessed as cell growth inhibition after 72 hrs by SRB assay	72			
 6.941706479	2226632	Antiproliferative activity against human HepG2 cells assessed as inhibition of cell growth incubated for 72 hrs by luminescence based analysis	72			
-6.958231755	2377239	Cytotoxicity against human HepG2 cells assessed as reduction in cell viability incubated for 24 hrs in presence of glucose by MTT assay	24		in presence of glucose 	speciffic goal
+6.958231755	2377239	Cytotoxicity against human HepG2 cells assessed as reduction in cell viability incubated for 24 hrs in presence of glucose by MTT assay	24		in presence of glucose 	specific goal
 6.961158026	1897800	Antiproliferative activity against human HepG2 cells assessed as inhibition of cell growth incubated for 72 hrs by MTT assay	72			
 6.961158026	2093070	Antiproliferative activity against human HepG2 cells assessed as inhibition of cell growth incubated for 72 hrs by MTT assay	72			
 6.961158026	2209020	Antiproliferative activity against human HepG2 cells assessed as inhibition of cell growth incubated for 72 hrs by MTT assay	72			
@@ -1321,7 +1321,7 @@ umap	assay_id	description	exposure_hrs	variant	comment	comment_type
 6.961158026	2295750	Antiproliferative activity against human HepG2 cells assessed as inhibition of cell growth incubated for 72 hrs by MTT assay	72			
 6.961158026	2350613	Antiproliferative activity against human HepG2 cells assessed as inhibition of cell growth incubated for 72 hrs by MTT assay	72			
 6.961158026	2356634	Antiproliferative activity against human HepG2 cells assessed as cell growth inhibition incubated for 72 hrs by MTT assay	72			
-6.965173492	2377240	Cytotoxicity against human HepG2 cells assessed as reduction in cell viability incubated for 24 hrs in presence of galactose by MTT assay	24		in presence of galactose	speciffic goal
+6.965173492	2377240	Cytotoxicity against human HepG2 cells assessed as reduction in cell viability incubated for 24 hrs in presence of galactose by MTT assay	24		in presence of galactose	specific goal
 6.983659914	2164960	Antiproliferative activity against human HepG2 cells assessed as inhibition of cell proliferation incubated for 24 hrs followed by 72 hrs of compound-free incubation by Sulforhodamine B assay	24			
 6.986267039	2237376	Anticancer activity against human HepG2 cells assessed as inhibition of cell growth incubated for 72 hrs by SRB assay	72			
 6.991287874	2120915	Antiproliferative activity against human HepG2 cells assessed as inhibition of cell growth incubated for 72 hrs by SRB method	72			
@@ -2079,7 +2079,7 @@ umap	assay_id	description	exposure_hrs	variant	comment	comment_type
 18.42073991	1990702	Inhibition of glycogenolysis in human HepG2 cells assessed as GCN-stimulated glycogen breakdown after 5 mins			Inhibition of glycogenolysis	mechanism
 18.93770638	937868	Cytotoxicity against human liver hepatocellular carcinoma cell line HepG2 assessed as inhibition of cell viability measured after 24 hrs by MTT assay	24			
 19.35769594	922525	Cytotoxicity against Homo sapiens (human) HepG2 cells assessed as survival after 3 days by crystal violet staining	72			
-19.80602448	1511441	Lipid lowering activity in human HepG2 cells assessed as decrease in oleic acid elicited lipid accumulation after 6 hrs by oil-red O staining method	6		Lipid lowering activity	speciffic goal
+19.80602448	1511441	Lipid lowering activity in human HepG2 cells assessed as decrease in oleic acid elicited lipid accumulation after 6 hrs by oil-red O staining method	6		Lipid lowering activity	specific goal
 20.00560067	1781647	Induction of apoptosis in human HepG2 cells assessed as caspase 3/7 activity after 24 hrs by caspase-glo luminescent assay	24		apoptosis induction	mechanism
 20.32537519	80615	Concentration required to inhibit by 50% human immunodeficiency virus-2 induced syncytium formation upon coculturing persistently HIV-infected HUT-78 cells with MOLT-4 cells			Concentration required to inhibit by 50% human immunodeficiency virus-2 induced syncytium formation	speccific goal
 21.17282119	540454	Antagonist activity at human Smo receptor expressed in CHO cells by [3H]Hh-Ag binding assay				
