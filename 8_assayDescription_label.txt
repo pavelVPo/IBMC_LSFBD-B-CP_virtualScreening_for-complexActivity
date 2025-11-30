@@ -1,0 +1,19 @@
+1. These days the content of the assays' description is avalable in the tabular form.
+However, related tables and fields appeared latter than the assays' description given as text.
+Thus, given the moderate volume of the data, it is possible to check the more earlier source, textual description of assays.
+
+2. Time of exposure is one of the important parameters, which could be found in the assays' description.
+Why does time of exposure matters?
+Because, chemical compounds could act fast via destruction of the cell substructures important for the cell function or slow via activating internal mechanism leading to the cell death. In these two cases the "structure-activity" relationships could be different.
+Modern AI techniques probably could elucidate all of these by themselves given enough data are provided, but if it is possible to make this task easier, why not?
+(One target of interset (SMO) is a protein, and not a cell line.
+However, function of this protein is hard to assess without the cell context. So, it is probably safe to say that its function should be evaluated in the cell-based assays).
+
+3. Also, descriptions of assays can contain the indications on the fact that the object used in this particular studies has specciffic genetic alteration.
+Cancer cells are characterized by the high load of mutation. However, speciffic indication on the mutations, subtypes, etc. could mean that:
+- object for the study were specifically selected with the potential mechanism of action of the compounds under study in mind and, thus, not the compounds and not the targets, are in line with the general body of the data.
+
+4. Also, descriptions of assays can contain the indications on the fact that scientits measure something special, in this case not the general cytotoxic effect, but
+- cytotoxic effect of the studied compounds in combination with something OR
+- antioxidant activity
+- effect on metabolism (not necessary harmful for the cancer cell).
