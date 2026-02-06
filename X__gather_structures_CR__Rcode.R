@@ -95,10 +95,10 @@ sdf_mna_2 <- read_file("C:/.../data//all_CR_raw_SD_I.SDF") |>
 						 separate_longer_delim(value, delim = "$$$$") |>
 						 rowwise() |>
 						 mutate(molfile = str_match(value, regex(".*END", dotall = TRUE))[1],
-						 		id = str_match(value, ">  <compound_id>.*\r\n(.*)\r\n")[3] |> str_trim(),
-						 		mna = str_match(value, ">  <MNA_DESCRIPTORS>.*\r\n(.*)\r\n")[3] |> str_trim()) |>
+						 		id = str_match(value, ">  <compound_id>.*\r\n(.*)\r\n")[2] |> str_trim(),
+						 		mna = str_match(value, ">  <MNA_DESCRIPTORS>.*\r\n(.*)\r\n")[2] |> str_trim()) |>
 						 ungroup() |>
-						 filter(is.na(mna)) |>
+						 filter(!is.na(mna)) |>
 						 mutate(id_fld = "\r\n>  <compound_id>\r\n",  end_rec = "\r\n\r\n$$$$") |>
 						 select(-value) |>
 						 distinct()
@@ -109,10 +109,10 @@ sdf_mna_3 <- read_file("C:/.../data//all_CR_raw_SD_II.SDF") |>
 						 separate_longer_delim(value, delim = "$$$$") |>
 						 rowwise() |>
 						 mutate(molfile = str_match(value, regex(".*END", dotall = TRUE))[1],
-						 		id = str_match(value, ">  <compound_id>.*\r\n(.*)\r\n")[3] |> str_trim(),
-						 		mna = str_match(value, ">  <MNA_DESCRIPTORS>.*\r\n(.*)\r\n")[3] |> str_trim()) |>
+						 		id = str_match(value, ">  <compound_id>.*\r\n(.*)\r\n")[2] |> str_trim(),
+						 		mna = str_match(value, ">  <MNA_DESCRIPTORS>.*\r\n(.*)\r\n")[2] |> str_trim()) |>
 						 ungroup() |>
-						 filter(is.na(mna)) |>
+						 filter(!is.na(mna)) |>
 						 mutate(id_fld = "\r\n>  <compound_id>\r\n",  end_rec = "\r\n\r\n$$$$") |>
 						 select(-value) |>
 						 distinct()
@@ -123,10 +123,10 @@ sdf_mna_4 <- read_file("C:/.../data//all_CR_raw_SD_III.SDF") |>
 						 separate_longer_delim(value, delim = "$$$$") |>
 						 rowwise() |>
 						 mutate(molfile = str_match(value, regex(".*END", dotall = TRUE))[1],
-						 		id = str_match(value, ">  <compound_id>.*\r\n(.*)\r\n")[3] |> str_trim(),
-						 		mna = str_match(value, ">  <MNA_DESCRIPTORS>.*\r\n(.*)\r\n")[3] |> str_trim()) |>
+						 		id = str_match(value, ">  <compound_id>.*\r\n(.*)\r\n")[2] |> str_trim(),
+						 		mna = str_match(value, ">  <MNA_DESCRIPTORS>.*\r\n(.*)\r\n")[2] |> str_trim()) |>
 						 ungroup() |>
-						 filter(is.na(mna)) |>
+						 filter(!is.na(mna)) |>
 						 mutate(id_fld = "\r\n>  <compound_id>\r\n",  end_rec = "\r\n\r\n$$$$") |>
 						 select(-value) |>
 						 distinct()
@@ -136,4 +136,5 @@ sdf_mna <- bind_rows(sdf_mna_1, sdf_mna_2, sdf_mna_3, sdf_mna_4)
 # Write OK structures (1614294)
 sdf_export <- sdf_mna |> select(molfile, id_fld, id, end_rec) |>
                          unite("record", molfile:end_rec, sep = "")
+
 write_lines(sdf_export[[1]], "C:/.../data//all_CR.SDF", sep = "")
