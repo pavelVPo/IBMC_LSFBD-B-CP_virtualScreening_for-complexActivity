@@ -3,8 +3,8 @@ library(tidyverse)
 
 ### Import
 # Selected cmpnds
-data        <- read_tsv(".../13-02-26__selected_cmpnds_described.tab")
-data_vis    <- read_tsv(".../16-02-26__selected_cmpnds_umap.tab", guess_max = 5000) |>
+data        <- read_tsv("C:/.../13-02-26__selected_cmpnds_described.tab")
+data_vis    <- read_tsv("C:/.../16-02-26__selected_cmpnds_umap.tab", guess_max = 5000) |>
 					mutate(compound_id_ = compound_id) |>
 					separate_longer_delim(compound_id, delim = "_")
 
@@ -82,8 +82,8 @@ umap_plot_dop
 
 
 ### Export the results
-ggsave(".../16-02-26__extended_umap_dop.png",
+ggsave("C:/.../16-02-26__extended_umap_dop.png",
 			plot = umap_plot_dop, width = 7, height = 5, units = "in", dpi = 300, bg = "white")
-write_tsv(data_maind  |> select(compound_id, availability, main_d, propensity, logP, logD, logSw), ".../17-02-26__ordered_mainD_physchem.tab")
-write_tsv(data_maini  |> select(compound_id, availability, main_i, propensity, logP, logD, logSw), ".../17-02-26__ordered_mainI_physchem.tab")
-write_tsv(data_locali |> select(compound_id, availability, local_i, propensity, logP, logD, logSw), ".../17-02-26__ordered_localI_physchem.tab")
+write_tsv(data_maind  |> select(compound_id, availability, main_d, propensity, state, availability, color, stereo, n_similars, logP, logD, logSw), "C:/.../17-02-26__ordered_mainD_physchem.tab")
+write_tsv(data_maini  |> select(compound_id, availability, main_i, propensity, state, availability, color, stereo, n_similars, logP, logD, logSw), "C:/.../17-02-26__ordered_mainI_physchem.tab")
+write_tsv(data_locali |> select(compound_id, availability, local_i, propensity, state, availability, color, stereo, n_similars, logP, logD, logSw), "C:/.../17-02-26__ordered_localI_physchem.tab")
