@@ -12,21 +12,21 @@ data_vis    <- read_tsv("C:/.../16-02-26__selected_cmpnds_umap.tab", guess_max =
 # Main_d
 data_maind <- data |> filter(category == "selected" &
 							 0 < logP & logP < 5 &
-							 0 < logP & logP < 5 &
+							 0 < logD & logD < 5 &
 							 -5.7 < logSw & logSw < -1) |>
 					  arrange(desc(propensity)) |>
 					  arrange(desc(main_d))
 # Main_i
 data_maini <- data |> filter(category == "selected" &
 							 0 < logP & logP < 5 &
-							 0 < logP & logP < 5 &
+							 0 < logD & logD < 5 &
 							 -5.7 < logSw & logSw < -1) |>
 					  arrange(desc(propensity)) |>
 					  arrange(desc(main_i))
 # local_i
 data_locali <- data |> filter(category == "selected" &
 							 0 < logP & logP < 5 &
-							 0 < logP & logP < 5 &
+							 0 < logD & logD < 5 &
 							 -5.7 < logSw & logSw < -1) |>
 					  arrange(desc(propensity)) |>
 					  arrange(desc(local_i))
