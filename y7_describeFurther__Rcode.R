@@ -8,7 +8,7 @@ rslt_li       <- read_tsv(".../24-02-26__ordered_localI_physchem.tab")
 rslt    <- rslt_d |> inner_join(rslt_i) |> inner_join(rslt_li)
 liquids <- rslt |> filter(state == "Liquid") 
 
-### Count ideal physchem
+### Count ideal physchem according to the recomendations
 ideal_maind <- rslt_d |> filter(1 < logP & logP < 3 &
 							 1 < logD & logD < 3 &
 							 -4 < logSw & logSw < -1) |>
